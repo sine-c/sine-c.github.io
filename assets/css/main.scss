@@ -41,3 +41,25 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* === custom scoped intro typography === */
+.intro-copy {
+  max-width: 740px;
+  margin-bottom: 1.25rem;
+}
+
+.intro-copy p {
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+.intro-copy a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Optional font just for this block
+.intro-copy { font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; }
+*/
