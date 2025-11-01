@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/me2.jpg"
+  avatar           : "/images/me2.jpg?v=1"   # leading slash + cache-buster
   name             : "Sine Canbolat Kaya"
   pronouns         : # example: "she/her"  
   bio              : "Doctoral Researcher at KIT"
