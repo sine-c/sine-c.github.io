@@ -1,12 +1,13 @@
 ---
 layout: single
 permalink: /
-title: ""          # <— empty to hide the big “About” heading
+title: ""          # keeps the big header hidden
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+
 
 # Hello There!
 
