@@ -1,43 +1,42 @@
----
----
+/* --- Clean, compact typography --- */
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+/* Font stack + base rhythm */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;       /* base size */
+  line-height: 1.75;     /* comfortable reading */
+  font-weight: 400;
+  color: #222;
+}
 
-@import
-    "vendor/breakpoint/breakpoint",
+/* Keep readable line length */
+.page__content {
+  max-width: 740px;      /* ~70–80 chars per line */
+}
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+/* Paragraphs */
+.page__content p {
+  font-size: 1rem;       /* = 16px */
+  margin: 0 0 1rem;
+  font-weight: 400;
+}
 
-    "include/mixins",
-    "vendor/susy/susy",
+/* Links: subtle, not shouty */
+.page__content a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.page__content a:hover { text-decoration-thickness: 2px; }
 
-    "layout/reset",
-    "layout/base",
+/* Headings: smaller + lighter (no heavy bold) */
+.page__content h1 { font-size: 1.6rem; font-weight: 600; letter-spacing: -0.01em; margin: 1.2rem 0 .6rem; }
+.page__content h2 { font-size: 1.25rem; font-weight: 600; margin: 1.1rem 0 .5rem; }
+.page__content h3 { font-size: 1.1rem;  font-weight: 600; margin: 1rem 0 .5rem; }
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+/* Optional: hide big auto title block on single pages */
+.page__title { display: none; }
 
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+/* Optional: tone down excerpts/lists */
+.archive__item-title { font-size: 1rem; font-weight: 600; }
+.archive__item-excerpt { font-size: .95rem; line-height: 1.6; }
