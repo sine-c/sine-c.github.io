@@ -15,6 +15,6 @@ redirect_from:
 
 I am a doctoral researcher at the [IAI](https://www.iai.kit.edu/english/index.php), [KIT](https://www.kit.edu/english/index.php), under the supervision of [Prof. Dr. Veit Hagenmeyer](https://www.iai.kit.edu/english/921_1213.php).
 
-My current research focuses on developing a security event correlation algorithm and conducting risk assessments to improve situational awareness and, ultimately, support decision making in Industrial Control System (ICS).
+My current research focuses on developing a security event correlation algorithm and conducting risk assessments to improve situational awareness and, ultimately, support decision making process in Industrial Control System (ICS).
 
 </div>
