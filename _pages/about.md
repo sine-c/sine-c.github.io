@@ -18,3 +18,10 @@ I am a doctoral researcher at the [IAI](https://www.iai.kit.edu/english/index.ph
 My current research focuses on developing a security event correlation algorithm and conducting risk assessments to improve situational awareness and, ultimately, support decision making process in Industrial Control System (ICS).
 
 </div>
+
+# Committee Memberships
+<div class="intro-copy" markdown="1">
+  
+- Artifact Evaluation Committee:
+
+</div>
