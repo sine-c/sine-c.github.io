@@ -36,7 +36,7 @@ My current research focuses on developing a security event correlation algorithm
 # Projects
 <div class="intro-copy" markdown="1">
   
-  - Focused on cybersecurity for smart grids, with emphasis on event correlation, data analysis, risk assessment, and industrial control system monitoring, at the [KASTEL Security Research Labs](https://kastel-labs.de/)
+  - Focused on cybersecurity for smart grids, including event correlation, data analysis, risk assessment, and industrial control system monitoring, at the [KASTEL Security Research Labs](https://kastel-labs.de/)
   
 </div>
 
