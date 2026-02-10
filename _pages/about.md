@@ -22,6 +22,6 @@ My current research focuses on developing a security event correlation algorithm
 # Committee Memberships
 <div class="intro-copy" markdown="1">
   
-- Artifact Evaluation Committee:
+- Artifact Evaluation Committee: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), [2026] (https://dsn2026.github.io/index.html)
 
 </div>
