@@ -31,7 +31,7 @@ My current research focuses on developing a security event correlation algorithm
 <div class="intro-copy" markdown="1">
   
 - Funded from the [Individual Career Coaching with External Coaches](https://www.khys.kit.edu/english/career_counseling_at_khys.php) program offered by KHYS, 2024
-- Funded from the [EXIST-Women @KIT] (https://kit-gruenderschmiede.de/en/service/exist-women/) offered by KIT, 2026
+- Funded from the [EXIST-Women @KIT](https://kit-gruenderschmiede.de/en/service/exist-women/) offered by KIT, 2026
 
 </div>
 
